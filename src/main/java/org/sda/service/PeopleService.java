@@ -48,4 +48,8 @@ public class PeopleService {
 
         System.out.println(uniqueCrafts);
     }
+
+
+
+
 }
