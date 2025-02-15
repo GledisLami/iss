@@ -40,7 +40,7 @@ public class PeopleService {
     public static void showNamesOfCrafts() throws Exception {
         IssPeopleInSpace peopleInSpace = getIssPeopleInSpace();
 
-        System.out.println("Crafts in space: ");
+        System.out.println("Crafts in space are: ");
         List<String> uniqueCrafts = peopleInSpace.getPeople().stream()
                 .map(craft -> craft.getCraft())
                 .distinct()
